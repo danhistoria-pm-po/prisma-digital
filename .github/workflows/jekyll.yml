@@ -1,0 +1,51 @@
+# Este workflow automatiza a publicação do Jekyll no GitHub Pages
+name: Publicar site Jekyll no GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-running: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configurar Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+          cache-version: 0
+      - name: Configurar Pages
+        id: pages
+        uses: actions/configure-pages@v4
+      - name: Construir com Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: './'
+          destination: './_site'
+      - name: Carregar artefato
+        uses: actions/upload-pages-artifact@v3
+      
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.output5 }}
+    runs-on: telehealth
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Implantar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
