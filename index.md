@@ -11,7 +11,9 @@ Soluções e conteúdos selecionados para acelerar os seus resultados.
 
 ## Nossos Produtos em Destaque
 
-* **Curso de Vendas na Prática:** Cansado(a) de correr atrás de horas complementares? Nosso curso resolve isso, são 30 horas de conteúdo 100% online (texto e áudio) com foco no mercado real. Aprenda a negociar de verdade e garanta seu certificado válido para a faculdade. Tudo por apenas R$ 29,90. Acesso imediato!.  
+* **Curso de Vendas na Prática:**  
+  ![Gestão de Vendas](/prisma-digital/GESTÃO%20DE%20VENDAS.jpg)  
+  Cansado(a) de correr atrás de horas complementares? Nosso curso resolve isso, são 30 horas de conteúdo 100% online (texto e áudio) com foco no mercado real. Aprenda a negociar de verdade e garanta seu certificado válido para a faculdade. Tudo por apenas R$ 29,90. Acesso imediato!.  
   [👉 Clique Aqui](https://pay.kiwify.com.br/rBtSUqT)
 
 * **Treinamento Especializado 2:** Descrição rápida do curso.  
