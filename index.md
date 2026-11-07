@@ -16,5 +16,9 @@ Soluções e conteúdos selecionados para acelerar os seus resultados.
   [👉 Ver na Hotmart](https://seu-link-de-afiliado-aqui)
 
 ---
+
 🔍 **Já é aluno?** [Clique aqui para verificar a autenticidade do seu certificado](/prisma-digital/verificar/)
+
+---
+
 Fique de olho também no nosso **Blog** logo abaixo para acompanhar os artigos semanais!
